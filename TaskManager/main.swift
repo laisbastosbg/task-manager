@@ -1,11 +1,5 @@
-//
-//  main.swift
-//  TaskManager
-//
-//  Created by Lais Godinho on 11/03/22.
-//
-
+#!/usr/bin/env xcrun swift
 import Foundation
 
-print("Hello, World!")
-
+let tasks = Tasks()
+print(tasks.getAll())
